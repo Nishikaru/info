@@ -36,6 +36,7 @@ box-shadow: 0px 10px 5px 1px rgba(0,0,0,0.54);
 position: fixed;
 top: 0px;
 width: 100%;
+z-index: 100;
 }
 .navbar-brand{
   font-family: 'Satisfy', cursive;
@@ -87,4 +88,30 @@ width: 100%;
   font-size: 3rem;
   margin: 2em 0;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.84);
+}
+/* productssec......................  */
+
+.productssec{
+  height: 100vh;
+  background-color: #ffa73d;
+}
+.productcont{
+  height: 100vh;
+  overflow-y: auto;
+
+}
+.cCards{
+
+}
+.card-img-top{
+  height: 40vh;
+  transition: 100ms ease-in;
+}
+.card-img-top:hover{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.card{
+  margin: auto;
+  margin-top: 2em;
 }
