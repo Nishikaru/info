@@ -42,6 +42,15 @@ background: radial-gradient(ellipse at center,  #fceabb 0%,#fccd4d 50%,#fbdf93 1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 );
 background-attachment: fixed;
 }
+.nav-item{
+  padding: 0 1em;
+  border: 2px transparent solid;
+  transition: 200ms ease-in;
+}
+.nav-item:hover{
+  border-left: 2px crimson solid;
+  border-right: 2px crimson solid;
+}
 .fa-forumbee{
   color: #fbdf93;
 }
