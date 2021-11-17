@@ -94,9 +94,10 @@ z-index: 100;
 .productssec{
   height: 100vh;
   background-color: #ffa73d;
+  padding: 3em;
 }
 .productcont{
-  height: 100vh;
+  height: 90vh;
   overflow-y: auto;
 
 }
