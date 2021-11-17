@@ -19,7 +19,7 @@ background: -moz-radial-gradient(center, ellipse cover,  #fceabb 0%, #fccd4d 50%
 background: -webkit-radial-gradient(center, ellipse cover,  #fceabb 0%,#fccd4d 50%,#fbdf93 100%);
 background: radial-gradient(ellipse at center,  #fceabb 0%,#fccd4d 50%,#fbdf93 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 );
-
+background-attachment: fixed;
 }
 .fa-forumbee{
   color: #fbdf93;
@@ -42,6 +42,9 @@ z-index: 100;
   font-family: 'Satisfy', cursive;
   font-weight: 600;
   font-size: 30px;
+}
+.navbar-brand img{
+  width: 2em;
 }
 .posterimg{
   height: 50vh;
@@ -94,7 +97,7 @@ z-index: 100;
 .productssec{
   height: 100vh;
   background-color: #ffa73d;
-  padding: 3em;
+  padding: 1em;
 }
 .productcont{
   height: 90vh;
@@ -115,4 +118,53 @@ z-index: 100;
 .card{
   margin: auto;
   margin-top: 2em;
+}
+/* offersec......................  */
+
+
+.offersec{
+  background-color:#ffb76b;
+  min-height: 40vh;
+}
+.coffer{
+  padding: 3em;
+}
+.offer{
+  border-radius: 10px;
+  background-color: aliceblue;
+  text-align: left;
+}
+.offerposter{
+  height: 30vh;
+}
+@media (min-width:768px) {
+  .offerd{
+    text-align: left;
+    padding: 3.5em;
+  }
+  .offerd h3,p{
+    text-align: left;
+    /* padding: 1em 0; */
+  }
+}
+
+/* contactsec..................... */
+
+
+.contactsec{
+  min-height: 50vh;
+  background-color: black;
+  color: aliceblue;
+  padding: 3em;
+}
+.contactdiv{
+
+}
+.contactdiv li{
+  list-style: none;
+}
+@media (min-width:768px) {
+  .contactdiv li{
+    text-align: justify;
+  }
 }
