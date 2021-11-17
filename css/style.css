@@ -145,6 +145,9 @@ z-index: 100;
   border: 3px #000 solid;
   border-radius: 10px;
   padding-bottom: 2em;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.76) inset;
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.76) inset;
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.76) inset;
 }
 .cCards{
 
