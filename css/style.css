@@ -12,7 +12,8 @@
 
 body{
   
-  cursor: url(/img/cmsm.png),default;
+  /* cursor: url(/img/cmsm.png),default; */
+  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif) 10 3, auto;
 
 }
 
