@@ -149,6 +149,10 @@ background-attachment: fixed;
 }
 /* productssec......................  */
 
+#Products{
+  overflow-x: hidden;
+}
+
 .productssec{
   height: 100vh;
   background-color: #ffa73d;
