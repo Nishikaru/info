@@ -149,10 +149,6 @@ background-attachment: fixed;
 }
 /* productssec......................  */
 
-#Products{
-  overflow-x: hidden;
-}
-
 .productssec{
   height: 100vh;
   background-color: #ffa73d;
@@ -176,14 +172,18 @@ background-attachment: fixed;
   height: 40vh;
   transition: 100ms ease-in;
 }
-.card-img-top:hover{
-  margin-top: 1em;
-  margin-left: 1em;
-}
 .card{
   margin: auto;
   margin-top: 2em;
+  
 }
+@media (min-width:768px ) {
+ 
+  .card-img-top:hover{
+    margin-top: 1em;
+    margin-left: 1em;
+  }   
+    }
 /* offersec......................  */
 
 
