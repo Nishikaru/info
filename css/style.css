@@ -8,6 +8,7 @@
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  cursor: url(/img/Clipart-Honey-Bee-PNG-Photossm.png),auto ;
 }
 
 /* width */
@@ -45,6 +46,7 @@ background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7de
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 );
 
 }
+
 
 /* firstlook.........................  */
 .firstlook{
