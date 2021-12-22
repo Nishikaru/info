@@ -85,7 +85,7 @@ img{
     .p1{
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 25vh;
+        top: 27vh;
         /* background-color: black; */
         position:absolute ;
         padding: 100%;
@@ -94,7 +94,7 @@ img{
     .p2{
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 55vh;
+        top: 60vh;
         /* background-color: black; */
         position:absolute ;
         padding: 100%;
@@ -103,7 +103,7 @@ img{
     .roll{
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 40vh;
+        top: 44vh;
         /* background-color: black; */
         position:absolute ;
         padding: .7em;
