@@ -71,3 +71,50 @@
 img{
     width: 15em;
 }
+@media (max-width:768px) {
+    .p1{
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 35vh;
+        /* background-color: black; */
+        position:absolute ;
+        padding: 100%;
+        text-align: center;
+    }
+    .p2{
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 65vh;
+        /* background-color: black; */
+        position:absolute ;
+        padding: 100%;
+        text-align: center;
+    }
+    .roll{
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50vh;
+        /* background-color: black; */
+        position:absolute ;
+        padding: 1.5em;
+        text-align: center;
+        font-weight: 600;
+        font-family:monospace;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    .theme{
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 2em;
+        font-weight: 600;
+        font-family:monospace;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    img{
+        width: 10em;
+    }
+}
