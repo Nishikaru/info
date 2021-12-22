@@ -115,7 +115,7 @@ img{
     }
     .theme{
         position: absolute;
-        bottom: 10vh;
+        bottom: 7vh;
         left: 50%;
         transform: translate(-50%,-50%);
         padding: 1em;
