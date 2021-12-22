@@ -1,257 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./img/cmsm.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Bee Shop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Game</title>
+    <!-- <script src="./js/index.js"></script> -->
 </head>
 <body>
-  <section class="firstlook" id="home"> 
-    <div>
-      <nav class="cnav navbar navbar-expand-lg navbar-light">
+    <section class="sec">
+        <div class="name">
+            <h3>Lets roll!</h3>
+        </div>
         <div class="container">
-          <a href="#" class="navbar-brand"><img src="./img/bee-sticker--600x600.png" alt=""> Bee Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#manu" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-auto" id="manu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Products">Products</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Contact">Contact us</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Log in </a></li>
-            </ul>
-            <form action="">
-              <input class="cinput m-1" type="search">
-              <input class="btn btn-lg btn-primary  fas fa-search" type="submit" value="&#xf002">
-            </form>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div>
-      <div class="container ">
-        <div class="cfirst">
-
-          <div class="row">
-            <div class="cmt col-lg-6">
-              <h3>  Welcome <img src="./img/bee-sticker--600x600.png" alt=""> </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ex.</p>
-              <button class=" startBtn btn btn-lg btn-success mb-4">
-                Start
-              </button>
+            <div class="p1">
+                <h3>Player 1</h3>
+                <img src="./img/517-5173577_6-dice-number-clipart-picture-black-and-white.png" alt="">
             </div>
-            <div class=" col-lg-6">
-              <img class="posterimg" src="https://images.pexels.com/photos/7843981/pexels-photo-7843981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <div class="p2">
+                <h3>Player 2</h3>
+                <img src="./img/517-5173577_6-dice-number-clipart-picture-black-and-white.png" alt="">
             </div>
-          </div>
+            <button onclick="Roll() ; win()" class="roll">Roll</button>
         </div>
-          <div>
-            
-          </div>
-        </div>
-      </div>
+        <button onclick="document.querySelector('section').classList.toggle('secNight')" class="theme">Theme</button>
     </section>
-    <section class="seclook">
-      <div>
-        <div class="row">
-          <div class="helpcon col-lg-4"><i class="fas fa-shipping-fast"></i><br>Fast shipping</div>
-          <div class="helpcon col-lg-4"><i class="fas fa-headset"></i><br>24/7 support</div>
-          <div class="helpcon col-lg-4"><i class="fas fa-hands-helping"></i><br>trustful</div>
-        </div>
-      </div>
-  </section>
-  <section class="productssec " id="Products">
-    <div>
-      <div class="container productcont">
-        <div class="row">
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/9995702/pexels-photo-9995702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Phones </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/10187883/pexels-photo-10187883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Shoes  </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/2399840/pexels-photo-2399840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">PC</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/3993398/pexels-photo-3993398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Beauty </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/4974496/pexels-photo-4974496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Accessories</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/2755612/pexels-photo-2755612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Dress</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/6650009/pexels-photo-6650009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bags</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/7314287/pexels-photo-7314287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Fashion </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Food </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/4041157/pexels-photo-4041157.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Watch </h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/10217694/pexels-photo-10217694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Sunglass</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-          <div class="cCards col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/1337753/pexels-photo-1337753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Gadget</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="offersec coffer">
-    <div class="">
-      <div class="container ">
-        <div class="offer ">
-          <div class="row ">
-            <div class="col-lg-6 offerd">
-              <h3>All new I Phone 13</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, at.</p>
-              <button class="btn btn-primary btn-lg">
-                Get now 
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-            <div class="col-lg-6">
-              <img class="offerposter" src="https://media-eng.dhakatribune.com/uploads/2021/11/apple-13-jpg-1636546662800.jpg" alt="">
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="contactsec" id="Contact">
-    <div>
-      <div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 contactdiv">
-              <h3>Contact Us</h3>
-              <ul>
-                <li class="contli">number:- 01710073692</li>
-                <li class="contli">Email:- mdsajed001@hotmail.com</li>
-                <li class="contli">Address:- Mirpur 1, 14 no. road</li>
-                <!-- <li class="contli">number</li> -->
-              </ul>
-            </div>
-            <div class="col-lg-4 contactdiv">
-
-            </div>
-            <div class="col-lg-4 appdown contactdiv">
-              <h3>Download our app</h3>
-              <button class="btn btn-light"><i class="fab fa-google-play"></i> Download</button>
-            </div>
-            <div class="col contactdiv copydiv">
-
-              <p style="text-align: center;">&copy;Nishikaru</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script src="https://kit.fontawesome.com/9b41f117ce.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
